@@ -1,0 +1,170 @@
+html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Merriweather;
+    padding: 0;
+    margin: 0;
+    background: #000124;
+background: radial-gradient(circle, rgba(0, 1, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+font-size: 2rem;
+}
+:root{
+    --primary-color:var(background: #000124;
+    background: radial-gradient(circle, rgba(0, 1, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%))
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: right;
+    max-width: 100%;
+    width: 100%;
+    background: #000124;
+    background: linear-gradient(117deg, rgba(0, 1, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    z-index: 9999;
+
+}
+
+.nav__ul{
+    display: flex;
+    float: inline-end;
+    gap: 3rem;
+    list-style: none;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+
+.rede{
+    color: white;
+    font-size: 0.6em;
+    border: solid 3px white;
+    padding: .4em;
+}
+
+.nav__ul, a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__ul a:hover{
+    color: yellow;
+    outline: yellow;
+}
+
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 2em;
+}
+
+.subtitulo{
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 166, 255);
+    padding-top: 0.5em;
+}
+
+.apresentacao{
+    color: white;
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    float:unset;
+    padding-bottom: 3rem;
+}
+
+.apresentacao img{
+    width: 10em; 
+    border-radius: 8px;
+    float: right;
+}
+
+.apresentacao p{
+    max-width: 600px;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+
+.redes{
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.redes h2{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    padding-bottom: 1rem;
+    font-size: 1.4em;
+}
+
+.instagram{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.interacoes h2{
+    font-size: 1.4em;
+    color: white;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.interacoes p{
+    color: white;
+    font-size: 1.3em;
+    padding: 3rem;
+    background-color: rgb(21, 0, 255);
+    margin: 3rem;
+    border-radius: 6px;
+}
+
+.interacoes a{
+    color: aquamarine;
+}
+
+
+.certificado h3{
+    padding: 4rem;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.certificado a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    color: #000124;
+    display: Grid;
+    gap: 90px;
+    padding: 1em;
+    border: solid black 3px;  
+    margin:5rem; 
+}
+
+.Alura{
+    background: linear-gradient(135deg, #ffd700 0%, #fff5cc 100%);
+}
+
+.Bradesco{
+    background: linear-gradient(135deg, #ffd700 0%, #fff5cc 100%);
+}
+
+.Conquista{
+    background: linear-gradient(135deg, #ffd700 0%, #fff5cc 100%);
+
+}

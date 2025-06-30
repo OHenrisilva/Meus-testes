@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Libertinus+Mono&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/form/form.css">
+    <link rel="stylesheet" href="/form/form.cs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form action="." method="post" id="formulario">
+        <fieldset>
+            <legend> Me conte sobre você agora</legend>
+            <label for="name" id="name" class="name"> Me conte seu Nome</label>
+            <input type="text" id="name" max="50" min="3" placeholder="Digite seu nome completo" required>
+            <label for="number" id="idade" class="Idade"> Diga a sua idade </label>
+            <input type="number" name="idade" id="idade" placeholder="Digite a sua idade" required>
+            <label for="city" id="city" class="City"> De que cidade você é?</label>
+            <input type="text" id="city" placeholder="Digite o nome da sua cidade" required>
+            <label for="Assunto" id="Assunto" class="Assunto"> O que você achou do site? De sua opinião!</label>
+            <textarea name="Assunto" id="Assunto" placeholder="Me conte tudo..."></textarea>
+            <div class="bnt">
+                <button type="submit" value="OK" class="Botao">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+    <script>
+        // Pegando o formulário
+        const formulario = document.getElementById('formulario');
+
+        formulario.addEventListener('submit', function(event) {
+            // Impede o envio real do formulário
+            event.preventDefault();
+
+            // Mostra a mensagem
+            alert('Obrigado por participar, as informações não serão salvas pois é um ambiente simulado!');
+        });
+    </script>
+</body>
+</html>
